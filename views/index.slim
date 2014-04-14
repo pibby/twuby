@@ -1,0 +1,8 @@
+ul.tweets
+	- @tweets.each do |qtweet|
+		== slim :qtweet, locals: {qtweet: qtweet}
+
+form action="/" method="POST"
+	textarea.tw-input name="qtweet[name]" maxlength="140"
+	br
+	input.button type="submit" value="Queue Tweet"

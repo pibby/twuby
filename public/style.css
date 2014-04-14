@@ -1,0 +1,48 @@
+body { font:300 14px/1.4 'Helvetica Neue', Helvetica, Arial; }
+.queue { padding:15px; }
+h1 {
+    font-size: 18px;
+    margin: 0;
+}
+ul {
+    list-style:none;
+    padding:0;
+}
+ul li {
+    padding:15px;
+    overflow:hidden;
+    background:#f9f9f9;
+    border-top:1px solid #e5e5e5;
+}
+ul li p {
+    float: left;
+    width: 80%;
+}
+ul li form{
+    float: right;
+    margin-top: -17px;
+}
+ul li:last-child { border-bottom:1px solid #e5e5e5; }
+.tweet { clear: both; }
+.tw-input {
+	width: 265px;
+    height: 75px;
+}
+.button, .delete {
+    -webkit-appearance: none;
+    border-radius:0;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+}
+.button {
+    background: #00acee;
+    padding: 10px 20px;
+    border-bottom: 2px solid #24618c;
+    font-size: 16px;
+}
+.delete {
+    background: #cc0000;
+    font-size: 20px;
+    padding: 0 10px 4px;
+}

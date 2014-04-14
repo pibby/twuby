@@ -1,0 +1,6 @@
+li.tweet id=qtweet.id
+	p
+		= qtweet.name
+	form.unqueue action="/qtweet/#{qtweet.id}" method="POST"
+		input type="hidden" name="_method" value="DELETE"
+		input.delete type="submit" value="x"  title="Delete Task"
