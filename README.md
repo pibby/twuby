@@ -21,8 +21,8 @@ Unwilling to pay for an account at BufferApp to queue more than 10 tweets, I dec
 - Twitter account
 - Register a Twitter app with the account that you want to tweet with at [http://app.twitter.com](http://app.twitter.com) so you can obtain your API credentials. Make sure you give your app read/write access. You do not need a callback URL.
 - Heroku add-ons:
-	- [Heroku Postgres](https://addons.heroku.com/heroku-postgresql)
-	- [Heroku Scheduler](https://addons.heroku.com/scheduler)
+    - [Heroku Postgres](https://addons.heroku.com/heroku-postgresql)
+    - [Heroku Scheduler](https://addons.heroku.com/scheduler)
 
 ## Notes
 When scheduling, use the Heroku Scheduler to run a rake task: `rake sendtweet` at whatever intervals you desire.
